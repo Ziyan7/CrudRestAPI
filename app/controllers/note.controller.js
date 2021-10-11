@@ -1,48 +1,48 @@
-const Note = require('../model/note.model.js');
+const logger  = require('../../logger/logger.js');
+const {createNewNote,findMyNote,findOneNote, updateByNote , deleteMyNote} =require('../service/note.service.js');
 
-// Create and Save a new Note
-exports.create = (req, res) => {
-    // Validate request
-    if(!req.body.content) {
-        return res.status(400).send({
-            message: "Note content can not be empty"
-        });
-    }
+// Create a Note
+exports.create = (req,res) => {
+    let title = req.body.title || "Untitled Note";
+    let content = req.body.content;
+    var newNote =  createNewNote(title,content);
 
-    // Create a Note
-    const note = new Note({
-        title: req.body.title || "Untitled Note", 
-        content: req.body.content
-    });
-
-
-
-    // Save Note in the database
-    note.save()
-    .then(data => {
-        res.send(data);
+    newNote.then(result => {
+        res.status(200).json({
+            message: 'created note successfully',
+            createdNote: {
+                title : req.body.title,
+                content: req.body.content,
+                _id: req.body.id,
+                request: {
+                    type: 'GET',
+                    url: 'http://localhost:3000/notes/'+result._id
+                }
+            }    
+        })
     }).catch(err => {
         res.status(500).send({
-            message: err.message || "Some error occurred while creating the Note."
+        message: err.message || "Some error occurred while creating the Note."
         });
-    });
-};
+    })
+}
 
 // Retrieve and return all notes from the database.
 exports.findAll = (req, res) => {
-    Note.find()
-    .then(notes => {
-        res.send(notes);
-    }).catch(err => {
-        res.status(500).send({
-            message: err.message || "Some error occurred while retrieving notes."
-        });
-    });
+    findMyNote((error,data)=>{
+        if(error){
+            res.status(500).send({
+                message: error.message || "Some error occurred while retrieving notes."
+            });
+        }
+        res.send(data);
+    })  
 };
 
 // Find a single note with a noteId
 exports.findOne = (req, res) => {
-    Note.findById(req.params.noteId)
+    var findById = findOneNote(req,res);
+    findById
     .then(note => {
         if(!note) {
             return res.status(404).send({
@@ -51,6 +51,7 @@ exports.findOne = (req, res) => {
         }
         res.send(note);
     }).catch(err => {
+        logger.error("Note not found with id " + req.params.noteId);
         if(err.kind === 'ObjectId') {
             return res.status(404).send({
                 message: "Note not found with id " + req.params.noteId
@@ -64,19 +65,10 @@ exports.findOne = (req, res) => {
 
 // Update a note identified by the noteId in the request
 exports.update = (req, res) => {
-    // Validate Request
-    if(!req.body.content) {
-        return res.status(400).send({
-            message: "Note content can not be empty"
-        });
-    }
-
-    // Find note and update it with the request body
-    Note.findByIdAndUpdate(req.params.noteId, {
-        title: req.body.title || "Untitled Note",
-        content: req.body.content
-    }, {new: true})
+    var updateNote = updateByNote(req,res);
+    updateNote
     .then(note => {
+        logger.error("Note not found with id " + req.params.noteId)
         if(!note) {
             return res.status(404).send({
                 message: "Note not found with id " + req.params.noteId
@@ -84,6 +76,7 @@ exports.update = (req, res) => {
         }
         res.send(note);
     }).catch(err => {
+        logger.error("Note not found with id " + req.params.noteId)
         if(err.kind === 'ObjectId') {
             return res.status(404).send({
                 message: "Note not found with id " + req.params.noteId
@@ -97,7 +90,8 @@ exports.update = (req, res) => {
 
 // Delete a note with the specified noteId in the request
 exports.delete = (req, res) => {
-    Note.findByIdAndRemove(req.params.noteId)
+    const deleteById = deleteMyNote(req,res);
+    deleteById
     .then(note => {
         if(!note) {
             return res.status(404).send({
@@ -116,3 +110,4 @@ exports.delete = (req, res) => {
         });
     });
 };
+
