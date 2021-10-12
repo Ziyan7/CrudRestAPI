@@ -1,8 +1,7 @@
+const notes = require('../controllers/note.controller.js');
+const validate = require('../middleware/note.middleware.js');
 
 module.exports = (app) => {
-    const notes = require('../controllers/note.controller.js');
-    const validate = require('../middleware/note.middleware.js');
-
     // Create a new Note
     app.post('/notes',validate, notes.create);
 

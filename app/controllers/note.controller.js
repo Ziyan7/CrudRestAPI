@@ -3,7 +3,7 @@ const {createNewNote,findMyNote,findOneNote, updateByNote , deleteMyNote} =requi
 
 // Create a Note
 exports.create = (req,res) => {
-    let title = req.body.title || "Untitled Note";
+    let title = req.body.title ;
     let content = req.body.content;
     var newNote =  createNewNote(title,content);
 
@@ -13,11 +13,6 @@ exports.create = (req,res) => {
             createdNote: {
                 title : req.body.title,
                 content: req.body.content,
-                _id: req.body.id,
-                request: {
-                    type: 'GET',
-                    url: 'http://localhost:3000/notes/'+result._id
-                }
             }    
         })
     }).catch(err => {
@@ -41,7 +36,8 @@ exports.findAll = (req, res) => {
 
 // Find a single note with a noteId
 exports.findOne = (req, res) => {
-    var findById = findOneNote(req,res);
+    var id = req.params.noteId;
+    var findById = findOneNote(id);
     findById
     .then(note => {
         if(!note) {
@@ -65,10 +61,12 @@ exports.findOne = (req, res) => {
 
 // Update a note identified by the noteId in the request
 exports.update = (req, res) => {
-    var updateNote = updateByNote(req,res);
+    let title = req.body.title ;
+    let content = req.body.content;
+    let id = req.params.noteId;
+    var updateNote = updateByNote(title,content,id);
     updateNote
     .then(note => {
-        logger.error("Note not found with id " + req.params.noteId)
         if(!note) {
             return res.status(404).send({
                 message: "Note not found with id " + req.params.noteId
@@ -90,7 +88,8 @@ exports.update = (req, res) => {
 
 // Delete a note with the specified noteId in the request
 exports.delete = (req, res) => {
-    const deleteById = deleteMyNote(req,res);
+    var id = req.params.noteId
+    const deleteById = deleteMyNote(id);
     deleteById
     .then(note => {
         if(!note) {
@@ -100,7 +99,7 @@ exports.delete = (req, res) => {
         }
         res.send({message: "Note deleted successfully!"});
     }).catch(err => {
-        if(err.kind === 'ObjectId' || err.name === 'NotFound') {
+        if(err.kind === 'ObjectId' ) {
             return res.status(404).send({
                 message: "Note not found with id " + req.params.noteId
             });                

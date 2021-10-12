@@ -16,7 +16,7 @@ const Note = mongoose.model("Note", NoteSchema);
 // Create a Note
 const createNote = (title, content) => {
   const note = new Note({
-    title: title || "Untitled Note",
+    title: title ,
     content: content,
   });
   // Save Note in the database
@@ -25,11 +25,11 @@ const createNote = (title, content) => {
 
 /*
 function to retrieve all notes from the database
-Since find uses promise then and catch is returned 
+find() is returning promise 
 */
 const findNotes = (callback) => {
-  Note.find({},(error,data)=>{
-    return error ? callback(error,null) : callback(null,data) ;
+  Note.find( (error, data) => {
+    return error ? callback(error, null) : callback(null, data);
   });
 };
 
@@ -37,25 +37,25 @@ const findNotes = (callback) => {
 function to retrieve note from the database based on noteID
 Since find uses promise, then and catch is returned 
 */
-const findIdNote = (req, res) => {
-  return Note.findById(req.params.noteId);
+const findIdNote = (id) => {
+  return Note.findById(id);
 };
 
-const updateById = (req, res) => {
+const updateById = (title, content,id) => {
   var update = Note.findByIdAndUpdate(
-    req.params.noteId,
+    id,
     {
-      title: req.body.title || "Untitled Note",
-      content: req.body.content,
+      title: title,
+      content:content,
     },
     { new: true }
   );
   return update;
 };
 
-const deleteNote = (req,res)=>{
-  var deleteId = Note.findByIdAndRemove(req.params.noteId);
+const deleteNote = (id) => {
+  var deleteId = Note.findByIdAndRemove(id);
   return deleteId;
-}
+};
 
-module.exports = { createNote, findNotes, findIdNote, updateById , deleteNote};
+module.exports = { createNote, findNotes, findIdNote, updateById, deleteNote };
