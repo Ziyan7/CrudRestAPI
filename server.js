@@ -4,8 +4,7 @@ const express = require('express');
 const app = express();
 
 // Configuring the database
-const dbConfig = require('./config/database.config.js');
-const mongoose = require('mongoose');
+const connect = require('./config/db.config.js');
 
 //import logger
 const logger = require('./logger/logger.js')
@@ -16,18 +15,7 @@ const logger = require('./logger/logger.js')
 app.use(express.json())
 // Require Notes routes
 require('./app/routes/note.routes.js')(app);
-
-// Connecting to the database
-const connect = () =>{
-    mongoose.connect(dbConfig.url, {
-        useNewUrlParser: true
-    }).then(() => {
-        logger.info("Successfully connected to the database");  
-    }).catch(err => {
-        logger.error('Could not connect to the database. Exiting now...', err);
-        process.exit();
-    });
-}
+require('./app/routes/user.routes.js')(app);
 
 // define a simple route
 app.get('/', (req, res) => {

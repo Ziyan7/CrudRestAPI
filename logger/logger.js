@@ -1,11 +1,17 @@
 const winston = require("winston");
+require('winston-daily-rotate-file');
+var transport = new winston.transports.DailyRotateFile({
+  filename: 'dialyErrorCheck.log',
+  datePattern: 'YYYY-MM-DD-HH',
+});
 const { combine, json, timestamp, prettyPrint } = winston.format;
 const logger = winston.createLogger({
   level: "info",
   format: combine(json(), timestamp(), prettyPrint()),
   transports: [
     // Write all logs with level `error` and below to `error.log`
-    new winston.transports.File({ filename: "error.log", level: "error" }),
+    //new winston.transports.File({ filename: "error.log", level: "error" }),
+    transport,
   ],
 });
 
