@@ -1,30 +1,27 @@
+const Joi = require("joi");
+/* joi is used to validate three properties i.e. 
+*name, age and mobileNumber
+*/
 const validate = (req, res, next) => {
-    //name validation
-    let nameRegex =new RegExp("^[A-Z][a-zA-Z]{2,}");
-    if (!nameRegex.test(req.body.name)) {
-      return res.status(400).send({
-        message:
-          "First letter of name must be in uppercase and should be minimum of length 3",
-      });
-    }
+  const schema = Joi.object({
+    name: Joi.string()
+      .min(3)
+      .regex(/^[A-Z][a-zA-Z]/)
+      .message("First letter of the name must be in uppercase ")
+      .required(),
 
-    //age validation
-    if (req.body.age < 1 || req.body.age > 200) {
-      return res.status(400).send({
-        message: "Enter the correct age",
-      });
-    }
+    age: Joi.number().min(1).max(100).required(),
 
-    //phone number validation
-    let numberRegex = new RegExp(
-        "^[0-9]{10}$"
-      );
-      if (!numberRegex.test(req.body.MobileNumber)) {
-        return res.status(400).send({
-          message: "Enter a valid phone number",
-        });
-      };
-      next();
-    };
-    module.exports= validate;
-    
+    mobileNumber: Joi.string()
+      .regex(/^[91]+[ ][0-9]{10}$/)
+      .message("Enter a valid mobile number")
+      .required(),
+  });
+  const result = schema.validate(req.body);
+  if (result.error) {
+    return res.json({ message: result.error.message });
+  }
+  next();
+};
+
+module.exports = validate;
