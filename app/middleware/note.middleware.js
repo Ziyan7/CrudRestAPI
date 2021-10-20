@@ -1,4 +1,20 @@
 const logger  = require("../../logger/logger");
+const jwt = require("../../utility/jwt");
+
+const ensureToken = (req, res, next) => {
+    const bearerHeader = req.headers["authorization"];
+    if (!bearerHeader) {
+      res.send("Token is empty");
+    }
+    const bearer = bearerHeader.split(" ");
+    const token = bearer[1];
+    jwt.verifyToken(token, (error, data) => {
+      if (error) {
+        return res.send(error);
+      }
+      next();
+    });
+  };
 
 const validate = (req, res, next) => {
     // check if title is present
@@ -18,4 +34,4 @@ const validate = (req, res, next) => {
     }
     next();
 }
-module.exports = validate;
+module.exports = {validate,ensureToken};
