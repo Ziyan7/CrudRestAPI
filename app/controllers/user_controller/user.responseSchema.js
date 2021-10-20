@@ -1,5 +1,5 @@
 /**
- * different status code for different functions
+ * different status code for different task
  */
 module.exports = {
     userApiSuccess: {
