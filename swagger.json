@@ -1,0 +1,330 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Easy_Note-Api",
+    "description": "CRUD Operation",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+
+  "tags": [
+    {
+      "name": "User",
+      "description": "CRUD Rest Api"
+    },
+    {
+      "name": "Note",
+      "description": "CRUD Rest Api"
+    }
+  ],
+  
+  "paths": {
+    "/user/login": {
+      "post": {
+        "tags": ["User"],
+        "summary": "User login",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "Login User",
+            "schema": {
+              "$ref": "#/definitions/User_Login"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Loggin successful",
+            "schema": {
+              "$ref": "#/definitions/User_Login"
+            }
+          }
+        }
+      }
+    },
+    "/user": {
+      "get": {
+        "tags": ["User"],
+        "summary": "Get all users in system",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": ["User"],
+        "summary": "Create new user in system",
+        "description": "Create new user in system",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "User that we want to create",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "New user is created",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      }
+    },
+    "/user/{userId}": {
+      "parameters": [
+        {
+          "name": "userId",
+          "in": "path",
+          "description": "User with new values of properties",
+          "schema": {
+            "$ref": "#/definitions/User"
+          }
+        }
+      ],
+      "put": {
+        "summary": "Update user using userId",
+        "tags": ["User"],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "User with new values of properties",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "User is updated successfully",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "Retrieve user using userId",
+        "tags": ["User"],
+        "responses": {
+          "200": {
+            "description": "User Info Retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      },
+
+      "delete": {
+        "summary": "Delete user using userId",
+        "tags": ["User"],
+        "responses": {
+          "200": {
+            "description": "User is deleted successfully",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      }
+    },
+    "/notes":{
+      "parameters": [
+        {
+          "name": "Token",
+          "in": "header",
+          "required": true,
+          "description": "Add token",
+          "type": "string"
+        }
+      ],
+      "post": {
+        "security": [
+          {
+            "Bearer": []
+          }
+        ],
+        "tags": ["Note"],
+        "summary": "Create new note",
+        "parameters": [
+          {
+            "name": "note",
+            "in": "body",
+            "description": "Create new note",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "New note is created",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        }
+      },
+      "get": {
+        "security": [
+          {
+            "Bearer": []
+          }
+        ],
+        "tags": ["Note"],
+        "summary": "Get all users in system",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        }
+      }
+    },
+    "/notes/{noteId}": {
+      "parameters": [
+        {
+          "name": "noteId",
+          "in": "path",
+          "description": "Retrieve notes using noteId",
+          "schema": {
+            "$ref": "#/definitions/Note"
+          }
+        },
+        {
+          "name": "Token",
+          "in": "header",
+          "required": true,
+          "description": "Add token",
+          "type": "string"
+        }
+      ],
+      "put": {
+        "security": [
+          {
+            "Bearer": []
+          }
+        ],
+        "summary": "Update note using noteId",
+        "tags": ["Note"],
+        "parameters": [
+          {
+            "name": "note",
+            "in": "body",
+            "description": "Note with new values of properties",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is updated successfully",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        }
+      },
+      "get": {
+        "security": [
+          {
+            "Bearer": []
+          }
+        ],
+        "summary": "Retrieve note using noteId",
+        "tags": ["Note"],
+        "responses": {
+          "200": {
+            "description": "Note Info Retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        }
+      },
+
+      "delete": {
+        "security": [
+          {
+            "Bearer": []
+          }
+        ],
+        "summary": "Delete note using NoteId",
+        "tags": ["Note"],
+        "responses": {
+          "200": {
+            "description": "Note is deleted successfully",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "User": {
+      "required": ["name", "age", "mobileNumber", "email", "password"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "mobileNumber": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "User_Login": {
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "Note":{
+      "required": ["title", "content"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,13 @@
 const logger  = require("../../logger/logger");
 const jwt = require("../../utility/jwt");
 
+/**
+ * Authozization based on correct tokens
+ * @param {object} req 
+ * @param {object} res  
+ */
 const ensureToken = (req, res, next) => {
-    const bearerHeader = req.headers["authorization"];
+    const bearerHeader = req.headers["authorization"]|| req.headers.token;
     if (!bearerHeader) {
       res.send("Token is empty");
     }
@@ -16,6 +21,11 @@ const ensureToken = (req, res, next) => {
     });
   };
 
+/**
+ * Validation of request
+ * @param {object} req 
+ * @param {object} res 
+ */
 const validate = (req, res, next) => {
     // check if title is present
     if(!req.body.title) {
