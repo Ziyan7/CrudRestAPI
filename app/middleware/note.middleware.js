@@ -21,6 +21,22 @@ const ensureToken = (req, res, next) => {
     });
   };
 
+  /**
+   * @description verify resetLink
+   * @param {object} req 
+   * @param {object} res 
+   */
+  const verifyResetLink = (req,res,next)=>{
+    let reset = req.params.resetId;
+    jwt.verifyToken(reset, (error, data) => {
+      if (error) {
+        return res.send(error);
+      }
+      req.body.email = data.email; 
+      next();
+    });
+  };
+
 /**
  * Validation of request
  * @param {object} req 
@@ -44,4 +60,4 @@ const validate = (req, res, next) => {
     }
     next();
 }
-module.exports = {validate,ensureToken};
+module.exports = {validate,ensureToken,verifyResetLink};

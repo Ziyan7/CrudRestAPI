@@ -1,5 +1,7 @@
 const {
   loginUserCheck,
+  forgotPasswordLink,
+  resetPasswordLink,
   createNewUser,
   findAlltheUsers,
   findOneUser,
@@ -8,14 +10,13 @@ const {
 } = require("../../service/user.service.js");
 const logger = require("../../../logger/logger.js");
 const statusObject = require("./user.responseSchema");
-//const mail = require("../../../utility/nodemailer")
 let responseStatus;
 
 /**
- * login user
+ * @description login user
  * @loginUsercheck is exported from the serice layer
- * @param {Object} req 
- * @param {object} res 
+ * @param {Object} req
+ * @param {object} res
  */
 exports.loginUser = (req, res) => {
   let body = req.body;
@@ -27,17 +28,47 @@ exports.loginUser = (req, res) => {
       return res.send(responseObject);
     }
     logger.info("login Successful");
-    //mail.mailer();
     responseObject = statusObject.userApiSuccess;
     responseObject.message = data;
     res.send(responseObject);
   });
 };
 
+exports.forgotPassword = (req,res)=>{
+  let body = req.body;
+  forgotPasswordLink(body,(error,data)=>{
+    if (error) {
+      logger.error(error);
+      responseObject = statusObject.userApiFailure;
+      responseObject.message = error;
+      return res.send(responseObject);
+    }
+    logger.info("Token generated");
+    res.send("Reset Link has been sent to your registered EmailId");
+  });
+};
+
+exports.resetPassword = (req,res)=>{
+  let reset = {   
+    email : req.body.email,
+    password : req.body.newPassword
+  }
+  resetPasswordLink (reset, (error,data)=>{
+    if (error) {
+      logger.error(error);
+      responseObject = statusObject.userApiFailure;
+      responseObject.message = error;
+      return res.send(responseObject);
+    }
+    logger.info("Password Changed Succefully");
+    res.send("Password Changed");
+  });
+}
+
 /**
  * to create new userInfo
- * @param {Object} req 
- * @param {Object} res 
+ * @param {Object} req
+ * @param {Object} res
  */
 exports.create = (req, res) => {
   let userInfo = {
@@ -64,8 +95,8 @@ exports.create = (req, res) => {
 
 /**
  * Retrieve and return all UserInfo from the database.
- * @param {Object} req 
- * @param {Object} res 
+ * @param {Object} req
+ * @param {Object} res
  */
 exports.findAll = (req, res) => {
   findAlltheUsers((error, data) => {
@@ -81,8 +112,8 @@ exports.findAll = (req, res) => {
 
 /**
  * Retrieve and return UserInfo from the database based on the id
- * @param {Object} req 
- * @param {Object} res 
+ * @param {Object} req
+ * @param {Object} res
  */
 exports.findOne = (req, res) => {
   let id = req.params.userId;

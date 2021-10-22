@@ -1,6 +1,6 @@
 require('dotenv').config();
 var nodemailer = require('nodemailer');
-exports.mailer = () =>{
+exports.mailer = (data, callback) =>{
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -11,16 +11,19 @@ exports.mailer = () =>{
       
       var mailOptions = {
         from: process.env.sendersEmailId,
-        to: process.env.receiversEmailId,
+        to: data.email,
         subject: 'Sending Email using Node.js',
-        text: 'You have logged in!'
+        text: 'reset link = ' + data.resetlink
       };
       
-      transporter.sendMail(mailOptions, function(error, info){
+      return transporter.sendMail(mailOptions, function(error, info){
         if (error) {
-          console.log(error);
+          return callback("Mail not sent" + error,null);
+          
         } else {
           console.log('Email sent: ' + info.response);
+          return callback(null,info);
+          
         }
       });
 }
