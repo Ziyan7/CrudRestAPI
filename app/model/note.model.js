@@ -1,10 +1,14 @@
 const mongoose = require("mongoose");
 
-//creation of schema for note collection
+/**
+ * creation of schema for note collection
+ * @requires mongoose
+ */
 const NoteSchema = mongoose.Schema(
   {
     title: String,
     content: String,
+    UserId: { type: mongoose.Schema.Types.ObjectId, ref: "UserInfo" },
   },
   {
     timestamps: true,
@@ -13,49 +17,105 @@ const NoteSchema = mongoose.Schema(
 
 const Note = mongoose.model("Note", NoteSchema);
 
-// Create a Note
-const createNote = (title, content) => {
+
+/**
+ * Create a Note
+ * @param {Object} notes 
+ * @returns data or error
+ */
+const createNote = (notes) => {
   const note = new Note({
-    title: title ,
-    content: content,
+    title: notes.title,
+    content: notes.content,
+    UserId: notes.userId,
   });
   // Save Note in the database
-  return note.save();
+  return note
+    .save()
+    .then((note) => {
+      return note;
+    })
+    .catch((error) => {
+      throw error;
+    });
 };
 
-/*
-function to retrieve all notes from the database
-find() is returning promise 
-*/
-const findNotes = (callback) => {
-  Note.find( (error, data) => {
-    return error ? callback(error, null) : callback(null, data);
+/**
+ * @description function to retrieve all notes from the database
+ * @param {ObjectId} UserId 
+ * @param {callback} callback 
+ */
+const findNotes = (UserId, callback) => {
+  Note.find({ UserId: UserId })
+    .populate({ path: "UserId", select: ["email", "age"] })
+    .exec((error, data) => {
+      return error ? callback(error, null) : callback(null, data);
+    });
+};
+
+/**
+ * @description function to retrieve note from the database based on noteID
+ * @param {ObjectId} id 
+ * @param {ObjectId} UserId 
+ * @returns data or error
+ */
+const findIdNote = (id, UserId) => {
+  return Note.findById(id)
+    .find({ UserId: UserId })
+    .populate({
+      path: "UserId",
+      select: ["email ", "age"],
+    })
+    .then((data) => {
+      if (data.length == 0) {
+        throw "Error retrieving note";
+      }
+      return data;
+    })
+    .catch((error) => {
+      throw error;
+    });
+};
+
+/**
+ * @description function to update note in the database based on noteID
+ * @param {Object} update 
+ * @returns data or error
+ */
+const updateById = (update) => {
+  return Note.findById(update.id)
+    .findOneAndUpdate(
+      {UserId:update.UserId},
+      {
+        title: update.title,
+        content: update.content,
+      },
+      { new: true }
+    )
+    .then((data) => {
+      return data;
+    })
+    .catch((error) => {
+      throw error;
+    });
+};
+
+/**
+ * @description function to delete note in the database based on noteID
+ * @param {ObjectID} id 
+ * @param {ObjectId} UserId 
+ * @returns  data or error
+ */
+const deleteNote = (id,UserId) => {
+  return Note.findById(id,UserId)
+  .findOneAndRemove({UserId:UserId})
+  .then((data) => {
+    return data;
+  })
+  .catch((error) => {
+    throw error;
   });
-};
-
-/*
-function to retrieve note from the database based on noteID
-Since find uses promise, then and catch is returned 
-*/
-const findIdNote = (id) => {
-  return Note.findById(id);
-};
-
-const updateById = (title, content,id) => {
-  var update = Note.findByIdAndUpdate(
-    id,
-    {
-      title: title,
-      content:content,
-    },
-    { new: true }
-  );
-  return update;
-};
-
-const deleteNote = (id) => {
-  var deleteId = Note.findByIdAndRemove(id);
-  return deleteId;
+  
 };
 
 module.exports = { createNote, findNotes, findIdNote, updateById, deleteNote };

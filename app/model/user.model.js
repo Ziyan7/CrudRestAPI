@@ -116,6 +116,7 @@ const findUsers = (callback) => {
   User.find((error, data) => {
     return error ? callback(error, null) : callback(null, data);
   });
+  
 };
 
 /**

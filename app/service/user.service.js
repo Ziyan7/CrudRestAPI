@@ -24,7 +24,7 @@ const loginUserCheck = (body, callback) => {
       return callback(error, null);
     } else {
       if (bcrypt.compareSync(body.password, data.password)) {
-        var token = jwt.generateToken(body.email);
+        var token = jwt.generateToken(body.email,data.id);
         var result = data + "Token:" + token;
         return callback(null, result);
       } else {

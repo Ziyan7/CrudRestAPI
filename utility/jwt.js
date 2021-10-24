@@ -1,12 +1,11 @@
 require('dotenv').config();
 const jwt = require("jsonwebtoken");
-const mail = require("./nodemailer")
 
-exports.generateToken = (email) => {
-  mail.mailer();
+exports.generateToken = (email,id) => {
   return jwt.sign(
     {
       email: email,
+      id:id
     },
     process.env.secretKey,
     { expiresIn: "1h" }

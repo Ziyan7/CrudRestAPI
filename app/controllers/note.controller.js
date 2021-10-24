@@ -13,9 +13,12 @@ const {
  * @param {Object} res
  */
 exports.create = (req, res) => {
-  let title = req.body.title;
-  let content = req.body.content;
-  var newNote = createNewNote(title, content);
+  let notes = {
+    title: req.body.title,
+    content: req.body.content,
+    userId: req.body.UserId,
+  };
+  var newNote = createNewNote(notes);
 
   newNote
     .then((result) => {
@@ -27,9 +30,9 @@ exports.create = (req, res) => {
         },
       });
     })
-    .catch((err) => {
+    .catch((error) => {
       res.status(500).send({
-        message: err.message || "Some error occurred while creating the Note.",
+        message: error.message || "Some error occurred while creating the Note.",
       });
     });
 };
@@ -40,7 +43,8 @@ exports.create = (req, res) => {
  * @param {Object} res
  */
 exports.findAll = (req, res) => {
-  findMyNote((error, data) => {
+  UserId = req.body.UserId;
+  findMyNote(UserId,(error, data) => {
     if (error) {
       res.status(500).send({
         message: error.message || "Some error occurred while retrieving notes.",
@@ -57,8 +61,9 @@ exports.findAll = (req, res) => {
  */
 
 exports.findOne = (req, res) => {
-  var id = req.params.noteId;
-  var findById = findOneNote(id);
+  let id = req.params.noteId;
+  UserId = req.body.UserId;
+  var findById = findOneNote(id,UserId);
   findById
     .then((note) => {
       if (!note) {
@@ -87,10 +92,14 @@ exports.findOne = (req, res) => {
  * @param {Object} res
  */
 exports.update = (req, res) => {
-  let title = req.body.title;
-  let content = req.body.content;
-  let id = req.params.noteId;
-  var updateNote = updateByNote(title, content, id);
+  let update = {
+    title : req.body.title,
+    content : req.body.content,
+    id : req.params.noteId,
+    UserId : req.body.UserId
+  }
+  
+  var updateNote = updateByNote(update);
   updateNote
     .then((note) => {
       if (!note) {
@@ -120,7 +129,8 @@ exports.update = (req, res) => {
  */
 exports.delete = (req, res) => {
   var id = req.params.noteId;
-  const deleteById = deleteMyNote(id);
+  UserId = req.body.UserId;
+  const deleteById = deleteMyNote(id,UserId);
   deleteById
     .then((note) => {
       if (!note) {
