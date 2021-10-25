@@ -1,5 +1,6 @@
 require('dotenv').config();
 var nodemailer = require('nodemailer');
+let url = 'http://localhost:3000/user/reset/'
 exports.mailer = (data, callback) =>{
     var transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -13,7 +14,7 @@ exports.mailer = (data, callback) =>{
         from: process.env.sendersEmailId,
         to: data.email,
         subject: 'Sending Email using Node.js',
-        text: 'reset link = ' + data.resetlink
+        text: 'reset link = ' + url + data.resetlink
       };
       
       return transporter.sendMail(mailOptions, function(error, info){
