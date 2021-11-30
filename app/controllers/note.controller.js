@@ -17,6 +17,9 @@ exports.create = (req, res) => {
     title: req.body.title,
     content: req.body.content,
     userId: req.body.UserId,
+    isTrash :req.body.isTrash, 
+    color : req.body.color,
+    image : req.body.image
   };
   var newNote = createNewNote(notes);
 
@@ -27,7 +30,9 @@ exports.create = (req, res) => {
         createdNote: {
           title: req.body.title,
           content: req.body.content,
+          isTrash :req.body.isTrash
         },
+        note : result
       });
     })
     .catch((error) => {
@@ -96,7 +101,10 @@ exports.update = (req, res) => {
     title : req.body.title,
     content : req.body.content,
     id : req.params.noteId,
-    UserId : req.body.UserId
+    UserId : req.body.UserId,
+    isTrash : req.body.isTrash,
+    color : req.body.color,
+    image : req.body.image
   }
   
   var updateNote = updateByNote(update);
@@ -138,7 +146,7 @@ exports.delete = (req, res) => {
           message: "Note not found with id " + req.params.noteId,
         });
       }
-      res.send({ message: "Note deleted successfully!" });
+      res.send({ message: "Note deleted successfully!",note :note });
     })
     .catch((err) => {
       if (err.kind === "ObjectId") {

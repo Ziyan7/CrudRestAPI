@@ -9,6 +9,9 @@ const NoteSchema = mongoose.Schema(
     title: String,
     content: String,
     UserId: { type: mongoose.Schema.Types.ObjectId, ref: "UserInfo" },
+    isTrash : Boolean ,
+    color : String,
+    image : String
   },
   {
     timestamps: true,
@@ -28,6 +31,9 @@ const createNote = (notes) => {
     title: notes.title,
     content: notes.content,
     UserId: notes.userId,
+    isTrash : notes.isTrash,
+    color : notes.color,
+    image:notes.image
   });
   // Save Note in the database
   return note
@@ -89,6 +95,9 @@ const updateById = (update) => {
       {
         title: update.title,
         content: update.content,
+        isTrash :update.isTrash,
+        color : update.color,
+        image : update.image
       },
       { new: true }
     )
