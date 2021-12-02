@@ -1,3 +1,9 @@
+/**
+ * Purpose : Services contain all business logic and returns objects or throws errors to the controller
+ * @file : note.service.js
+ * @author  : Abdul Ziyan
+ */
+
 const {
   createNote,
   findNotes,
@@ -6,7 +12,12 @@ const {
   deleteNote,
 } = require("../model/note.model.js");
 
-//intermediate function to create new note
+/**
+ * @description intermediate function to create new note
+ * @param {object} notes 
+ * @returns data or error
+ */
+
 const createNewNote = (notes) => {
   return createNote(notes)
     .then((note) => {
@@ -17,14 +28,22 @@ const createNewNote = (notes) => {
     });
 };
 
-//intermediate function to get all notes
+/**
+ * @description intermediate function to get all notes
+ * @param {object} UserId  
+ */
 const findMyNote = (UserId, callback) => {
   findNotes(UserId, (error, data) => {
     return error ? callback(error, null) : callback(null, data);
   });
 };
 
-//intermediate function to get note based noteID
+/**
+ * @description intermediate function to get note based noteID
+ * @param {Object} id 
+ * @param {Object} UserId 
+ * @returns  data or error
+ */
 const findOneNote = (id, UserId) => {
   return findIdNote(id, UserId)
     .then((note) => {
@@ -35,7 +54,11 @@ const findOneNote = (id, UserId) => {
     });
 };
 
-//intermediate function to update note based noteID
+/**
+ * @description intermediate function to update note based noteID
+ * @param {Object} update 
+ * @returns data or error
+ */
 const updateByNote = (update) => {
   return updateById(update)
     .then((note) => {
@@ -46,7 +69,12 @@ const updateByNote = (update) => {
     });
 };
 
-//intermediate function to delete note based noteID
+/**
+ * @description intermediate function to delete note based noteID
+ * @param {Object} id 
+ * @param {Object} UserId 
+ * @returns 
+ */
 const deleteMyNote = (id,UserId) => {
   return deleteNote(id,UserId)
   .then((note) => {

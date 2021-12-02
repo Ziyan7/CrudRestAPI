@@ -1,4 +1,11 @@
+/**
+ * Purpose : handle the requests and sends the response
+ * @file : note.controller.js
+ * @author  : Abdul Ziyan
+ */
+
 const logger = require("../../logger/logger.js");
+const multer = require("../../utility/multer")
 const {
   createNewNote,
   findMyNote,
@@ -159,3 +166,21 @@ exports.delete = (req, res) => {
       });
     });
 };
+
+/**
+   * @description Handles the request and response for posting a image
+   * @param {Object} req
+   * @param {Object} res
+   */
+ exports.uploadImage = (req, res) => {
+  const upload = multer();
+  upload(req, res, (err) => {
+    if (err) {
+      logger.error("Could not upload image", err);
+      res.status(400).send(err);
+    } else {
+      logger.info(res);
+      res.status(200).send(req.file);
+    }
+  });
+}

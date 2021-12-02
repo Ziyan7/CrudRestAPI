@@ -1,13 +1,20 @@
+/**
+ * Purpose : The schema definition of the Model
+ * @file : user.model.js
+ * @author  : Abdul Ziyan
+ */
+
+
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const jwt = require("../../utility/jwt");
-
-//creation of schema for note collection
+/**
+ * @description creation of schema for note collection
+ */
 const UserSchema = mongoose.Schema(
   {
-    name: String,
-    age: Number,
-    mobileNumber: String,
+    firstName: String,
+    lastName: String,
     email: {
       type: String,
       unique: true,
@@ -20,7 +27,7 @@ const UserSchema = mongoose.Schema(
 );
 
 /**
- * Hashing password using bcrypt library
+ * @description Hashing password using bcrypt library
  */
 UserSchema.pre("save", async function (next) {
   try {
@@ -35,6 +42,7 @@ UserSchema.pre("save", async function (next) {
 const User = mongoose.model("UserInfo", UserSchema);
 
 /**
+ * @description 
  * request body contails email and password
  * user registration is checked based on email using @findOne inbuilt function
  * @param {request} body
@@ -43,6 +51,9 @@ const User = mongoose.model("UserInfo", UserSchema);
  */
 const loginUser = (body, callback) => {
   return User.findOne({ email: body.email }, (error, data) => {
+    if (!data || error) {
+      return callback("Invalid EmailId", null);
+    }
     return error ? callback(error, null) : callback(null, data);
   });
 };
@@ -83,16 +94,15 @@ const resetPassword = (reset, callback) => {
 };
 
 /**
- * Function to register new user
+ * @description Function to register new user
  * @param {request body} userInfo
  * @param {callback} callback
  * @returns succesfull registration or error
  */
 const createNewUserId = (userInfo, callback) => {
   const user = new User({
-    name: userInfo.name,
-    age: userInfo.age,
-    mobileNumber: userInfo.number,
+    firstName: userInfo.firstName,
+    lastName: userInfo.lastName,
     email: userInfo.email,
     password: userInfo.password,
   });
@@ -142,9 +152,8 @@ const findUpdateId = (Userinfo, callback) => {
   return User.findByIdAndUpdate(
     Userinfo.id,
     {
-      name: Userinfo.name,
-      age: Userinfo.age,
-      number: Userinfo.number,
+      firstName: Userinfo.firstName,
+      lastName: Userinfo.lastName,
       email: Userinfo.email,
       password: Userinfo.password,
     },

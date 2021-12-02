@@ -1,3 +1,9 @@
+/**
+ * Purpose : The API routes maps to the Controller
+ * @file : user.router.js
+ * @author  : Abdul Ziyan
+ */
+
 const user = require("../controllers/user_controller/user.controller.js");
 const { verifyResetLink } = require("../middleware/note.middleware.js");
 const validate = require("../middleware/user.middleware.js");

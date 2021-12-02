@@ -1,3 +1,9 @@
+/**
+ * Purpose : handle the requests and sends the response
+ * @file : user.controller.js
+ * @author  : Abdul Ziyan
+ */
+
 const {
   loginUserCheck,
   forgotPasswordLink,
@@ -34,6 +40,12 @@ exports.loginUser = (req, res) => {
   });
 };
 
+/**
+ * @description Function to get reset password link
+ * @forgotPasswordLink is exported from the serice layer
+ * @param {Object} req
+ * @param {object} res
+ */
 exports.forgotPassword = (req,res)=>{
   let body = req.body;
   forgotPasswordLink(body,(error,data)=>{
@@ -48,6 +60,12 @@ exports.forgotPassword = (req,res)=>{
   });
 };
 
+/**
+ * @description Function to reset password 
+ * @resetPasswordLink is exported from the serice layer
+ * @param {Object} req
+ * @param {object} res
+ */
 exports.resetPassword = (req,res)=>{
   let reset = {   
     email : req.body.email,
@@ -66,15 +84,14 @@ exports.resetPassword = (req,res)=>{
 }
 
 /**
- * to create new userInfo
+ * @description to create new userInfo
  * @param {Object} req
  * @param {Object} res
  */
 exports.create = (req, res) => {
   let userInfo = {
-    name: req.body.name,
-    age: req.body.age,
-    number: req.body.mobileNumber,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
     email: req.body.email,
     password: req.body.password,
   };
@@ -86,7 +103,7 @@ exports.create = (req, res) => {
       responseStatus.message = error;
       return res.send(responseStatus);
     }
-    logger.info("login Successful");
+    logger.info("Account Creation Successful");
     responseStatus = statusObject.userApiSuccess;
     responseStatus.message = data;
     res.send(responseStatus);
@@ -94,7 +111,7 @@ exports.create = (req, res) => {
 };
 
 /**
- * Retrieve and return all UserInfo from the database.
+ * @description Retrieve and return all UserInfo from the database.
  * @param {Object} req
  * @param {Object} res
  */
@@ -111,7 +128,7 @@ exports.findAll = (req, res) => {
 };
 
 /**
- * Retrieve and return UserInfo from the database based on the id
+ * @description Retrieve and return UserInfo from the database based on the id
  * @param {Object} req
  * @param {Object} res
  */
@@ -141,16 +158,15 @@ exports.findOne = (req, res) => {
 };
 
 /**
- * Update a Userinfo based on the userId 
+ *@description Update a Userinfo based on the userId 
  with request and response as parameters
  * @param {object} req 
  * @param {object} res 
  */
 exports.update = (req, res) => {
   let userInfo = {
-    name: req.body.name,
-    age: req.body.age,
-    number: req.body.mobileNumber,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
     email: req.body.email,
     password: req.body.password,
     id: req.params.userId,
@@ -180,7 +196,7 @@ exports.update = (req, res) => {
 };
 
 /**
- * Delete a user ingfo based on userId with
+ * @description Delete a user ingfo based on userId with
    with request and response as parameters
  * @param {Object} req 
  * @param {Object} res 

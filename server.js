@@ -1,18 +1,5 @@
 const express = require("express");
 const cors = require("cors")
-const multer = require('multer');
-const path = require ('path');
-const middleware = require('./app/middleware/note.middleware') 
-var storage = multer.diskStorage({   
-  destination: "./uploads/images/"  ,
-  filename: function (req, file, cb) { 
-     cb(null , file.fieldname + "-" + Date.now() + path.extname(file.originalname));   
-  }
-});
-
-const upload = multer({
-  storage : storage
-}).single("image");
 
 // create express app
 const app = express();
@@ -41,6 +28,7 @@ const swaggerUi = require("swagger-ui-express"),
 // Require Notes routes
 require("./app/routes/note.routes.js")(app);
 require("./app/routes/user.routes.js")(app);
+require("./app/routes/label.routes.js")(app);
 
 // define a simple route
 app.get("/", (req, res) => {
@@ -50,16 +38,6 @@ app.get("/", (req, res) => {
   });
 });
 
-app.post("/upload-images",middleware.ensureToken, (req, res) =>{
-  upload(req, res , (err) => {
-    if(err){
-      res.status(400).send(err)
-    }
-    else {
-      res.status(200).send(req.file)
-    }
-  })
-});
 app.use(express.static("uploads"))
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));

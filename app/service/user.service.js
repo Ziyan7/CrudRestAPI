@@ -1,3 +1,8 @@
+/**
+ * Purpose : Services contain all business logic and returns objects or throws errors to the controller
+ * @file : user.service.js
+ * @author  : Abdul Ziyan
+ */
 const {
   loginUser,
   forgotPassword,
@@ -13,10 +18,11 @@ const bcrypt = require("bcrypt");
 const mail = require("../../utility/nodemailer");
 
 /**
- * function to valiadet password
+ * @description
+ * function to validate password
  * based on validation token is generated
  * @param {request} body
- * @param {callaback} callback
+ * @param {callback} callback
  */
 const loginUserCheck = (body, callback) => {
   loginUser(body, (error, data) => {
@@ -25,8 +31,7 @@ const loginUserCheck = (body, callback) => {
     } else {
       if (bcrypt.compareSync(body.password, data.password)) {
         var token = jwt.generateToken(body.email,data.id);
-        var result = data + "Token:" + token;
-        return callback(null, result);
+        return callback(null, token);
       } else {
         return callback("incorrect password");
       }
@@ -34,6 +39,12 @@ const loginUserCheck = (body, callback) => {
   });
 };
 
+/**
+ * @description
+ * function to generate reset password link
+ * @param {request} body
+ * @param {callaback} callback
+ */
 const forgotPasswordLink = (body, callback) => {
   forgotPassword(body, (error, data) => {
     if (error) {
@@ -48,6 +59,11 @@ const forgotPasswordLink = (body, callback) => {
   });
 };
 
+/**
+ * @description function to reset password
+ * @param {Object} reset 
+ * @param {callback} callback 
+ */
 const resetPasswordLink = (reset, callback) => {
   resetPassword(reset, (error, data) => {
     if (error) {
@@ -58,41 +74,53 @@ const resetPasswordLink = (reset, callback) => {
   });
 };
 
-//Intermediate function to create new User Info
+/**
+ * @description Intermediate function to create new User Info
+ * @param {callback} callback 
+ */
 const createNewUser = (Userinfo, callback) => {
   createNewUserId(Userinfo, (error, data) => {
     return error ? callback(error, null) : callback(null, data);
   });
 };
 
-//intermediate function to get all Userinfo
+/**
+ * @description intermediate function to get all Userinfo
+ * @param {callback} callback 
+ */
 const findAlltheUsers = (callback) => {
   findUsers((error, data) => {
     return error ? callback(error, null) : callback(null, data);
   });
 };
 
-/*intermediate function to get particular Userinfo 
+/**
+ * @description intermediate function to get particular Userinfo 
 based on userId
-*/
+ * @param {callback} callback 
+ */
 const findOneUser = (id, callback) => {
   findOneUserId(id, (error, data) => {
     return error ? callback(error, null) : callback(null, data);
   });
 };
 
-/*intermediate function to update particular Userinfo 
+/**
+ * @description intermediate function to update particular Userinfo 
 based on userId
-*/
+ * @param {callback} callback 
+ */
 const updateUser = (Userinfo, callback) => {
   findUpdateId(Userinfo, (error, data) => {
     return error ? callback(error, null) : callback(null, data);
   });
 };
 
-/*intermediate function to delete particular Userinfo 
+/**
+ * @description intermediate function to delete particular Userinfo 
 based on userId
-*/
+ * @param {callback} callback 
+ */
 const deleteById = (findId, callback) => {
   deleteUsingId(findId, (error, data) => {
     return error ? callback(error, null) : callback(null, data);

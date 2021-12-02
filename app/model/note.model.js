@@ -1,7 +1,14 @@
+/**
+ * Purpose : The schema definition of the Model
+ * @file : note.model.js
+ * @author  : Abdul Ziyan
+ */
+
+
 const mongoose = require("mongoose");
 
 /**
- * creation of schema for note collection
+ * @description creation of schema for note collection
  * @requires mongoose
  */
 const NoteSchema = mongoose.Schema(
@@ -22,7 +29,7 @@ const Note = mongoose.model("Note", NoteSchema);
 
 
 /**
- * Create a Note
+ * @description Create a Note
  * @param {Object} notes 
  * @returns data or error
  */
@@ -33,7 +40,7 @@ const createNote = (notes) => {
     UserId: notes.userId,
     isTrash : notes.isTrash,
     color : notes.color,
-    image:notes.image
+    image: notes.image
   });
   // Save Note in the database
   return note

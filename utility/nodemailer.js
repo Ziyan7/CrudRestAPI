@@ -1,12 +1,12 @@
 require('dotenv').config();
 var nodemailer = require('nodemailer');
-let url = 'http://localhost:3000/user/reset/'
+let url = 'http://localhost:3000/reset/'
 exports.mailer = (data, callback) =>{
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: process.env.sendersEmailId,
-          pass: process.env.password
+          user: 'ziyannodejs@gmail.com',
+          pass: '123nodejs123'
         }
       });
       

@@ -1,3 +1,9 @@
+/**
+ * Purpose : The API routes maps to the Controller
+ * @file : note.router.js
+ * @author  : Abdul Ziyan
+ */
+
 const notes = require('../controllers/note.controller.js');
 const {validate,ensureToken} = require('../middleware/note.middleware.js');
 
@@ -16,5 +22,8 @@ module.exports = (app) => {
 
     // Delete a Note with noteId
     app.delete('/notes/:noteId',ensureToken, notes.delete);
+
+    //Add image in note
+    app.post("/upload-images",ensureToken, notes.uploadImage);
 };
 

@@ -1,15 +1,21 @@
+/**
+ * Purpose : Validates the requests and token 
+ * @file : note.middleware.js
+ * @author  : Abdul Ziyan
+ */
+
 const logger  = require("../../logger/logger");
 const jwt = require("../../utility/jwt");
 
 /**
- * Authozization based on correct tokens
+ * @description Authozization based on correct tokens
  * @param {object} req 
  * @param {object} res  
  */
 const ensureToken = (req, res, next) => {
     const bearerHeader = req.headers["authorization"]|| req.headers.token;
     if (!bearerHeader) {
-      res.send("Token is empty");
+      res.send("Not Authorized");
     }
     const bearer = bearerHeader.split(" ");
     const token = bearer[1];
@@ -39,7 +45,7 @@ const ensureToken = (req, res, next) => {
   };
 
 /**
- * Validation of request
+ * @description Validation of request
  * @param {object} req 
  * @param {object} res 
  */
