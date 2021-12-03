@@ -21,6 +21,7 @@ const ensureToken = (req, res, next) => {
     const token = bearer[1];
     jwt.verifyToken(token, (error, data) => {
       if (error) {
+        logger.error(error)
         return res.send(error);
       }
       req.body.UserId = data.id;

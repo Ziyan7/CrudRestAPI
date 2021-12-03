@@ -3,7 +3,7 @@
  * @file : label.model.js
  * @author  : Abdul Ziyan
  */
-
+ const logger = require("../../logger/logger.js");
 const mongoose = require("mongoose");
 
 /**
@@ -33,8 +33,8 @@ const createLabel = async (data) => {
 
   try {
     // Save Label in the database
-    const saveLabel = await newLabel.save();
-    return saveLabel;
+    return await newLabel.save();
+    
   } catch (error) {
     throw error;
   }
@@ -46,8 +46,8 @@ const createLabel = async (data) => {
  */
 const findLabels = async () => {
   try {
-    const allLabels = await Label.find();
-    return allLabels;
+    return await Label.find();
+   
   } catch (error) {
     throw error;
   }
@@ -60,8 +60,8 @@ const findLabels = async () => {
  */
 const findOneLabel = async (id) => {
   try {
-    const singleLabels = await Label.findById(id);
-    return singleLabels;
+    return await Label.findById(id);
+   
   } catch (error) {
     throw error;
   }
@@ -82,8 +82,8 @@ const updateUserLabel = async (update) => {
       { new: true }
     );
     try {
-      const saveLabel = await labelUpdate.save();
-      return saveLabel;
+      return await labelUpdate.save();
+      
     } catch (error) {
       throw error;
     }
@@ -94,13 +94,12 @@ const updateUserLabel = async (update) => {
 
 /**
  * @description Delete label based on ObjectId
- * @param ObjectId} id
+ * @param {ObjectId} id
  * @returns label or error
  */
 const deleteOneLabel = async (id) => {
   try {
-    const singleLabels = await Label.findByIdAndDelete(id);
-    return singleLabels;
+    return  await Label.findByIdAndDelete(id);
   } catch (error) {
     throw error;
   }

@@ -19,8 +19,8 @@ const {
  */
 const createNewLabel = async (label) => {
   try {
-    const createUserNote = await createLabel(label);
-    return createUserNote;
+    return await createLabel(label);
+     
   } catch (error) {
     throw error;
   }
@@ -31,8 +31,7 @@ const createNewLabel = async (label) => {
  */
 const findAllLabel = async () => {
   try {
-    const userLabel = await findLabels();
-    return userLabel;
+    return await findLabels();
   } catch (error) {
     throw error;
   }
@@ -45,8 +44,7 @@ const findAllLabel = async () => {
  */
 const findSingleLabel = async (id) => {
   try {
-    const userLabel = await findOneLabel(id);
-    return userLabel;
+    return await findOneLabel(id);
   } catch (error) {
     throw error;
   }
@@ -59,8 +57,7 @@ const findSingleLabel = async (id) => {
  */
 const updateLabel = async (update) => {
   try {
-    const updateUserNote = await updateUserLabel(update);
-    return updateUserNote;
+    return await updateUserLabel(update); 
   } catch (error) {
     throw error;
   }
@@ -73,8 +70,8 @@ const updateLabel = async (update) => {
  */
 const deleteSingleLabel = async (id) => {
   try {
-    const userLabel = await deleteOneLabel(id);
-    return userLabel;
+    return await deleteOneLabel(id);
+   
   } catch (error) {
     throw error;
   }

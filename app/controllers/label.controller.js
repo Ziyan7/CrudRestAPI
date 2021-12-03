@@ -23,6 +23,7 @@ exports.create = async (req, res) => {
   let label = req.body.label;
   try {
     var newLabel = await createNewLabel(label);
+    logger.info("Created new label successfully")
     return res.status(200).send(newLabel);
   } catch (error) {
     logger.error("Label cannot be created", error);
@@ -41,6 +42,7 @@ exports.create = async (req, res) => {
 exports.findAll = async (req, res) => {
   try {
     var allLabels = await findAllLabel();
+    logger.info("Retrieved all label successfully")
     return res.status(200).send(allLabels);
   } catch (error) {
     logger.error("Labels could not be retrieved", error);
@@ -60,6 +62,7 @@ exports.findOne = async (req, res) => {
   let id = req.params.labelId;
   try {
     var singleLabels = await findSingleLabel(id);
+    logger.info("Retrieved label successfully")
     return res.status(200).send(singleLabels);
   } catch (error) {
     logger.error("Label could not be retrieved", error);
@@ -82,6 +85,7 @@ exports.update = async (req, res) => {
   };
   try {
     var newLabel = await updateLabel(update);
+    logger.info("Updated label successfully")
     return res.status(200).send({ message: "Updated the Label successfully", label: newLabel });
   } catch (error) {
     logger.error("Labels could not be updated", error);
@@ -102,6 +106,7 @@ exports.delete = async (req, res) => {
   let id = req.params.labelId;
   try {
     var singleLabels = await deleteSingleLabel(id);
+    logger.info("deleted label successfully")
     return res
       .status(200)
       .send({ message: "Deleted the Label successfully", label: singleLabels });

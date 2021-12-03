@@ -32,6 +32,7 @@ exports.create = (req, res) => {
 
   newNote
     .then((result) => {
+      logger.info("Created new notes successfully")
       res.status(200).json({
         message: "created note successfully",
         createdNote: {
@@ -43,6 +44,7 @@ exports.create = (req, res) => {
       });
     })
     .catch((error) => {
+      logger.error("Error while creating notes ",error)
       res.status(500).send({
         message: error.message || "Some error occurred while creating the Note.",
       });
@@ -58,10 +60,12 @@ exports.findAll = (req, res) => {
   UserId = req.body.UserId;
   findMyNote(UserId,(error, data) => {
     if (error) {
+      logger.error("Error while finding all notes ",error)
       res.status(500).send({
         message: error.message || "Some error occurred while retrieving notes.",
       });
     }
+    logger.info("Retrieved all notes successfully")
     res.send(data);
   });
 };
@@ -79,10 +83,12 @@ exports.findOne = (req, res) => {
   findById
     .then((note) => {
       if (!note) {
+        logger.error("Error while finding notes based on Id ",error)
         return res.status(404).send({
           message: "Note not found with id " + req.params.noteId,
         });
       }
+      logger.info("Retrieved note successfully")
       res.send(note);
     })
     .catch((err) => {
@@ -122,6 +128,7 @@ exports.update = (req, res) => {
           message: "Note not found with id " + req.params.noteId,
         });
       }
+      logger.info("Updated note successfully")
       res.send(note);
     })
     .catch((err) => {
@@ -153,9 +160,11 @@ exports.delete = (req, res) => {
           message: "Note not found with id " + req.params.noteId,
         });
       }
+      logger.info("Deleted note successfully")
       res.send({ message: "Note deleted successfully!",note :note });
     })
     .catch((err) => {
+      logger.error("Note deletion Unsuccessful");
       if (err.kind === "ObjectId") {
         return res.status(404).send({
           message: "Note not found with id " + req.params.noteId,
