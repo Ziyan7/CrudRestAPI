@@ -5,9 +5,7 @@ const PORT = process.env.PORT ;
 // create express app
 const app = express();
 app.use(
-  cors({
-    origin:process.env.URL
-  })
+  cors()
 )
 
 // Configuring the database
