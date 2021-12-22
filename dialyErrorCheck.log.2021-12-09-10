@@ -1,0 +1,20 @@
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-09T04:38:12.467Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-09T04:38:12.533Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-09T04:38:44.224Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-09T04:39:35.682Z'
+}

@@ -60,7 +60,7 @@ const createNote = (notes) => {
  */
 const findNotes = (UserId, callback) => {
   Note.find({ UserId: UserId })
-    .populate({ path: "UserId", select: ["email", "age"] })
+    .populate({ path: "UserId", select: ["email"] })
     .exec((error, data) => {
       return error ? callback(error, null) : callback(null, data);
     });
@@ -77,7 +77,7 @@ const findIdNote = (id, UserId) => {
     .find({ UserId: UserId })
     .populate({
       path: "UserId",
-      select: ["email ", "age"],
+      select: ["email "],
     })
     .then((data) => {
       if (data.length == 0) {

@@ -1,0 +1,2385 @@
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:28.999Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:29.073Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:29.218Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:30:29.235Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:29.325Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:29.345Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:29.433Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:29.453Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:29.539Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:30:29.550Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:57.579Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:57.647Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:57.777Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:30:57.796Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:57.884Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:57.903Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:57.991Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:58.013Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:30:58.100Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:30:58.110Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.127Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.196Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.329Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:31:58.346Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.437Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.456Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.544Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.564Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:31:58.653Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:31:58.663Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.429Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.495Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.624Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:33:38.639Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.727Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.744Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.832Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.855Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:33:38.943Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:33:38.952Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:01.720Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:01.786Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:01.922Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:35:01.936Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:02.028Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:02.047Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:02.138Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:02.161Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:02.250Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:35:02.259Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:02.347Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.111Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.177Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.306Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:35:22.322Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.410Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.430Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.519Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.542Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.631Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:35:22.641Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.724Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:22.737Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:43.943Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.014Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.151Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:35:44.166Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.261Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.285Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.380Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.404Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.499Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:35:44.508Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.598Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:35:44.612Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.274Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.342Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.475Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:36:22.491Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.580Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.597Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.686Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.706Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.798Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:36:22.807Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.892Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:36:22.904Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.453Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.520Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.655Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:38:15.672Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.762Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.782Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.871Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.897Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:15.986Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:38:15.996Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:16.082Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:38:16.095Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.365Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.435Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.567Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:39:35.583Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.673Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.694Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.783Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.803Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.891Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:39:35.901Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.988Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:39:35.999Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.469Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.537Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.667Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:40:19.683Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.772Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.794Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.881Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.903Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:19.993Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:40:20.003Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:20.089Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:20.103Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.445Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.511Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.645Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:40:37.663Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.752Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.773Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.861Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.884Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:37.970Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:40:37.980Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:38.066Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:40:38.078Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:53.752Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:53.818Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:53.953Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:41:53.968Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:54.058Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:54.080Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:54.165Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:54.187Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:54.277Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3',
+  level: 'error',
+  timestamp: '2021-12-07T06:41:54.285Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:54.378Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:41:54.390Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:55.660Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:55.727Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:55.860Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:48:55.876Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:55.966Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:55.985Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:56.073Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:56.096Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:56.183Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:48:56.192Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:56.278Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:56.288Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:48:56.375Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:48:56.381Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:17.535Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:17.601Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:17.733Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:17.750Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:17.839Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:17.857Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:17.945Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:17.966Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:18.057Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:18.066Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:18.152Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:18.165Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:18.250Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:18.256Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.063Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.133Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.267Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:39.284Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.373Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.394Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.481Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.503Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.591Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:39.600Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.687Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.700Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:39.787Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:39.793Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.303Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.370Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.503Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:58.519Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.609Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.627Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.714Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.736Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.828Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:58.837Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.922Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:58.935Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:49:59.023Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:49:59.031Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.080Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.148Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.280Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:51:13.295Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.384Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.403Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.493Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.516Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.607Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:51:13.617Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.703Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.714Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.803Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:51:13.810Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:51:13.896Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:51:13.903Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.355Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.421Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.556Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:52:03.571Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.660Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.680Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.768Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.789Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.877Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:52:03.887Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.973Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:03.986Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:04.072Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:52:04.079Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:52:04.165Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:52:04.171Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.117Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.186Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.319Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:53:19.333Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.423Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.443Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.530Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.552Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.641Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:53:19.651Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.737Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.749Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.836Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:53:19.842Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.929Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:53:19.945Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:05.603Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:05.669Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:05.803Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:54:05.819Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:05.908Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:05.928Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.016Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.040Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.130Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:54:06.140Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.224Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.237Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.324Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:54:06.329Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.415Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:54:06.429Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:41.866Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:41.933Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.063Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:55:42.081Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.171Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.190Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.277Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.296Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.384Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:55:42.392Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.477Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.488Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.573Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:55:42.580Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.665Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:55:42.676Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:54.919Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:54.985Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.116Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:58:55.134Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.222Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.242Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.330Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.353Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.442Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:58:55.451Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.538Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.550Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.636Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:58:55.641Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.728Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.743Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:58:55.829Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:41.980Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.047Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.177Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:59:42.195Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.284Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.304Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.392Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.412Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.499Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:59:42.508Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.594Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.606Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.693Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:59:42.700Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.785Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.800Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:42.885Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.358Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.426Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.558Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:59:59.574Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.663Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.684Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.772Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.793Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.883Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T06:59:59.890Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.976Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:59:59.988Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:00.076Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:00:00.082Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:00.167Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:00.183Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:00.269Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.343Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.411Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.541Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:00:44.559Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.648Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.668Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.757Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.778Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.868Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:00:44.878Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.963Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:44.976Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:45.063Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:00:45.068Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:45.155Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:45.169Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:00:45.255Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:00.546Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:00.620Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:00.753Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:01:00.768Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:00.858Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:00.878Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:00.965Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:00.986Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:01.076Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:01:01.085Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:01.171Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:01.183Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:01.270Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:01:01.276Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:01.361Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:01.376Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:01.463Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:26.777Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:26.846Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:26.976Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:01:26.993Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.082Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.101Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.190Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.212Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.301Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:01:27.312Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.399Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.411Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.498Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:01:27.505Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.592Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.607Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:01:27.693Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.013Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.081Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.216Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:02:07.231Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.320Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.340Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.429Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.452Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.541Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:02:07.550Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.637Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.647Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.734Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:02:07.740Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.824Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.839Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:02:07.925Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.396Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.468Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.605Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:03:00.623Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.713Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.730Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.819Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.843Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:00.932Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:03:00.941Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:01.028Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:01.040Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:01.126Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:03:01.132Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:01.217Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:01.232Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:01.318Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:01.411Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.399Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.469Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.601Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:03:25.619Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.708Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.727Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.815Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.837Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:25.926Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:03:25.935Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.021Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.033Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.118Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:03:26.124Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.210Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.223Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.310Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.401Z'
+}
+{
+  message: 'Deleted note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:03:26.409Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:16.804Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:16.885Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.027Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:04:17.041Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.129Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.151Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.238Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.261Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.351Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:04:17.361Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.445Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.458Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.543Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:04:17.548Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.635Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.649Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.735Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.827Z'
+}
+{
+  message: 'Deleted note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:04:17.835Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:02.603Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:02.671Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:02.801Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:05:02.816Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:02.905Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:02.925Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.012Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.034Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.124Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T07:05:03.133Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.219Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.231Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.317Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T07:05:03.323Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.409Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.423Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.508Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.602Z'
+}
+{
+  message: 'Deleted note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T07:05:03.610Z'
+}

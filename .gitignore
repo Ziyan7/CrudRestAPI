@@ -2,3 +2,7 @@ node_modules/
 error.log
 package-lock.json
 .env
+logger/
+test/label.json
+test/note.json
+test/user.json

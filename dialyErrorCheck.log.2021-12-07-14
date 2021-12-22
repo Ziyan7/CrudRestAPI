@@ -1,0 +1,651 @@
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:40:11.735Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:40:11.825Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:41:14.420Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:41:14.493Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:42:16.493Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:42:16.564Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:42:41.791Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:42:41.859Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:43:25.848Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:43:25.917Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:45:53.683Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:45:53.775Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:45:53.869Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:46:26.091Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:46:26.162Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { label: 1 },
+  keyValue: { label: 'Testing' },
+  level: 'error',
+  message: 'Label cannot be created E11000 duplicate key error collection: easy-notes.labels index: label_1 dup key: { label: "Testing" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: easy-notes.labels index: label_1 dup key: { label: "Testing" }\n' +
+    '    at C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\operations\\insert.js:51:33\n' +
+    '    at C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:272:25\n' +
+    '    at handleOperationResult (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\sdam\\server.js:363:9)\n' +
+    '    at MessageStream.messageHandler (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\connection.js:479:9)\n' +
+    '    at MessageStream.emit (events.js:400:28)\n' +
+    '    at processIncomingData (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:108:16)\n' +
+    '    at MessageStream._write (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:28:9)\n' +
+    '    at writeOrBuffer (internal/streams/writable.js:358:12)\n' +
+    '    at MessageStream.Writable.write (internal/streams/writable.js:303:10)\n' +
+    '    at Socket.ondata (internal/streams/readable.js:726:22)\n' +
+    '    at Socket.emit (events.js:400:28)\n' +
+    '    at addChunk (internal/streams/readable.js:290:12)\n' +
+    '    at readableAddChunk (internal/streams/readable.js:265:9)\n' +
+    '    at Socket.Readable.push (internal/streams/readable.js:204:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)',
+  timestamp: '2021-12-07T08:46:26.254Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:48:14.754Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:48:14.825Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:48:14.914Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:50:13.469Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:50:13.541Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:50:13.629Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:50:42.118Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:50:42.198Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:50:42.297Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:51:12.914Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:51:12.986Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:51:13.077Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:52:55.502Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:52:55.579Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:52:55.668Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:52:55.689Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:53:56.952Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:53:57.021Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:53:57.108Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:53:57.129Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:55:23.607Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:55:23.681Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { label: 1 },
+  keyValue: { label: 'Check' },
+  level: 'error',
+  message: 'Label cannot be created E11000 duplicate key error collection: easy-notes.labels index: label_1 dup key: { label: "Check" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: easy-notes.labels index: label_1 dup key: { label: "Check" }\n' +
+    '    at C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\operations\\insert.js:51:33\n' +
+    '    at C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:272:25\n' +
+    '    at handleOperationResult (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\sdam\\server.js:363:9)\n' +
+    '    at MessageStream.messageHandler (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\connection.js:479:9)\n' +
+    '    at MessageStream.emit (events.js:400:28)\n' +
+    '    at processIncomingData (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:108:16)\n' +
+    '    at MessageStream._write (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:28:9)\n' +
+    '    at writeOrBuffer (internal/streams/writable.js:358:12)\n' +
+    '    at MessageStream.Writable.write (internal/streams/writable.js:303:10)\n' +
+    '    at Socket.ondata (internal/streams/readable.js:726:22)\n' +
+    '    at Socket.emit (events.js:400:28)\n' +
+    '    at addChunk (internal/streams/readable.js:290:12)\n' +
+    '    at readableAddChunk (internal/streams/readable.js:265:9)\n' +
+    '    at Socket.Readable.push (internal/streams/readable.js:204:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)',
+  timestamp: '2021-12-07T08:55:23.769Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:55:23.803Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:56:23.120Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:56:23.197Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:56:23.276Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:56:23.301Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:01.190Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:01.263Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:01.348Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:01.368Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:01.380Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:33.188Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:33.268Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:33.348Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:33.369Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:57:33.380Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T08:58:54.876Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T08:58:54.947Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:58:55.035Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:58:55.055Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T08:58:55.067Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:00:03.008Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:00:03.080Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { label: 1 },
+  keyValue: { label: 'testing' },
+  level: 'error',
+  message: 'Label cannot be created E11000 duplicate key error collection: easy-notes.labels index: label_1 dup key: { label: "testing" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: easy-notes.labels index: label_1 dup key: { label: "testing" }\n' +
+    '    at C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\operations\\insert.js:51:33\n' +
+    '    at C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:272:25\n' +
+    '    at handleOperationResult (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\sdam\\server.js:363:9)\n' +
+    '    at MessageStream.messageHandler (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\connection.js:479:9)\n' +
+    '    at MessageStream.emit (events.js:400:28)\n' +
+    '    at processIncomingData (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:108:16)\n' +
+    '    at MessageStream._write (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:28:9)\n' +
+    '    at writeOrBuffer (internal/streams/writable.js:358:12)\n' +
+    '    at MessageStream.Writable.write (internal/streams/writable.js:303:10)\n' +
+    '    at Socket.ondata (internal/streams/readable.js:726:22)\n' +
+    '    at Socket.emit (events.js:400:28)\n' +
+    '    at addChunk (internal/streams/readable.js:290:12)\n' +
+    '    at readableAddChunk (internal/streams/readable.js:265:9)\n' +
+    '    at Socket.Readable.push (internal/streams/readable.js:204:10)\n' +
+    '    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)',
+  timestamp: '2021-12-07T09:00:03.165Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:00:03.199Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:00:03.212Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:00:10.751Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:00:10.845Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:01:04.248Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"61af224f19ad3442ea17d27n"',
+  kind: 'ObjectId',
+  value: '61af224f19ad3442ea17d27n',
+  path: '_id',
+  reason: TypeError: Argument passed in must be a Buffer or string of 12 bytes or a string of 24 hex characters
+      at new BSONTypeError (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\bson\lib\error.js:39:42)
+      at new ObjectId (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\bson\lib\objectid.js:62:23)
+      at castObjectId (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\schema\objectid.js:245:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\schematype.js:1135:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\schematype.js:1567:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\schematype.js:1557:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\schematype.js:1534:20)
+      at cast (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\cast.js:337:32)
+      at model.Query.Query.cast (C:\Users\abdul.ziyan_ymediala\NodejsPractice\node_modules\mongoose\lib\query.js:4963:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'Label could not be retrieved Cast to ObjectId failed for value "61af224f19ad3442ea17d27n" (type string) at path "_id" for model "Label"',
+  stack: 'CastError: Cast to ObjectId failed for value "61af224f19ad3442ea17d27n" (type string) at path "_id" for model "Label"\n' +
+    '    at model.Query.exec (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongoose\\lib\\query.js:4540:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\abdul.ziyan_ymediala\\NodejsPractice\\node_modules\\mongoose\\lib\\query.js:4639:15)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)',
+  timestamp: '2021-12-07T09:01:12.449Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:02:28.711Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:02:28.784Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:02:28.872Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:02:28.893Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:03:00.570Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:03:00.673Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:03:00.759Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:03:00.781Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:03:00.793Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:05:46.345Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:05:46.419Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:05:46.505Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:05:46.526Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:05:46.539Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:12.656Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:12.734Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:12.813Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:12.833Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:12.847Z'
+}
+{
+  message: 'Updated label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:12.869Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:45.109Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:45.180Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:45.266Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:45.286Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:45.299Z'
+}
+{
+  message: 'Updated label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:06:45.322Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:11:34.687Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:11:34.758Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:11:34.844Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:11:34.863Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:11:34.876Z'
+}
+{
+  message: 'deleted label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:11:34.888Z'
+}
+{
+  message: 'deleted label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:11:34.902Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:12:35.385Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:12:35.454Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:12:35.547Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:12:35.571Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:12:35.586Z'
+}
+{
+  message: 'deleted label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:12:35.613Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:14:39.955Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:14:40.022Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:14:40.104Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:14:40.126Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:14:40.139Z'
+}
+{
+  message: 'Updated label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:14:40.160Z'
+}
+{
+  message: 'deleted label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:14:40.172Z'
+}

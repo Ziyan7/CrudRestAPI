@@ -1,0 +1,10 @@
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-17T11:09:52.409Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-17T11:09:52.493Z'
+}

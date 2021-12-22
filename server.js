@@ -1,11 +1,12 @@
 const express = require("express");
 const cors = require("cors")
-
+require('dotenv').config();
+const PORT = process.env.PORT ;
 // create express app
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000"
+    origin:process.env.URL
   })
 )
 
@@ -30,6 +31,7 @@ require("./app/routes/note.routes.js")(app);
 require("./app/routes/user.routes.js")(app);
 require("./app/routes/label.routes.js")(app);
 
+
 // define a simple route
 app.get("/", (req, res) => {
   res.json({
@@ -43,7 +45,9 @@ app.use(express.static("uploads"))
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // listen for requests
-app.listen(9000, () => {
+app.listen(PORT, () => {
   logger.info("Server is listening on port 9000");
   connect();
 });
+
+module.exports = app

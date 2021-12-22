@@ -11,7 +11,7 @@ module.exports = {
         message:""
     },
     userApiFindFailure:{
-        status:200,
+        status:500,
         message:"Couldn't find User with given id"
     },
     userValidationFailure:{

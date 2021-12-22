@@ -1,0 +1,210 @@
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:49:11.055Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:49:11.108Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:49:11.212Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:49:11.235Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:49:11.249Z'
+}
+{
+  message: 'Updated label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:49:11.271Z'
+}
+{
+  message: 'deleted label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:49:11.284Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:54.655Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:54.708Z'
+}
+{
+  message: 'Created new label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:54.830Z'
+}
+{
+  message: 'Retrieved all label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:54.855Z'
+}
+{
+  message: 'Retrieved label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:54.868Z'
+}
+{
+  message: 'Updated label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:54.891Z'
+}
+{
+  message: 'deleted label successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:54.905Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.003Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T09:51:55.013Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.105Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.117Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.211Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.238Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.333Z'
+}
+{
+  message: 'Note not found with id 61aefe3aa95c4b3514966622',
+  level: 'error',
+  timestamp: '2021-12-07T09:51:55.342Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.432Z'
+}
+{
+  message: 'Retrieved note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.444Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.536Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T09:51:55.542Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.635Z'
+}
+{
+  message: 'Updated note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.648Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.749Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.849Z'
+}
+{
+  message: 'Deleted note successfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.858Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:55.952Z'
+}
+{
+  message: 'Invalid EmailId',
+  level: 'error',
+  timestamp: '2021-12-07T09:51:55.959Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.052Z'
+}
+{
+  message: 'incorrect password',
+  level: 'error',
+  timestamp: '2021-12-07T09:51:56.140Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.231Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.320Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.413Z'
+}
+{
+  message: 'Account Creation Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.508Z'
+}
+{
+  message: 'Retrieval Successful',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.539Z'
+}
+{
+  message: 'Updated succesfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.572Z'
+}
+{
+  message: 'delete succesfully',
+  level: 'info',
+  timestamp: '2021-12-07T09:51:56.591Z'
+}

@@ -1,0 +1,80 @@
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:23:43.687Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:23:43.771Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:23:43.937Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:23:43.967Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:23:44.066Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:23:44.094Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:23:44.198Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:23:44.211Z'
+}
+{
+  message: 'Server is listening on port 9000',
+  level: 'info',
+  timestamp: '2021-12-07T06:24:57.950Z'
+}
+{
+  message: 'Successfully connected to the database',
+  level: 'info',
+  timestamp: '2021-12-07T06:24:58.019Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:24:58.153Z'
+}
+{
+  message: 'Note content can not be empty',
+  level: 'error',
+  timestamp: '2021-12-07T06:24:58.170Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:24:58.259Z'
+}
+{
+  message: 'Created new notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:24:58.278Z'
+}
+{
+  message: 'login Successful',
+  level: 'info',
+  timestamp: '2021-12-07T06:24:58.366Z'
+}
+{
+  message: 'Retrieved all notes successfully',
+  level: 'info',
+  timestamp: '2021-12-07T06:24:58.387Z'
+}

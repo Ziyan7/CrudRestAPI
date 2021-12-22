@@ -119,15 +119,17 @@ const createNewUserId = (userInfo, callback) => {
 
 /**
  *@description model function for finding all user in database
- * @param {callback} callback
  * @returns error or data
  */
-const findUsers = (callback) => {
-  User.find((error, data) => {
-    return error ? callback(error, null) : callback(null, data);
-  });
-  
-};
+
+   const findUsers = async () => {
+    try {
+      let data = await User.find();
+      return data;
+    } catch (error) {
+      throw error;
+    }
+  };
 
 /**
  * @description function to retrieve particular User Info from the database 

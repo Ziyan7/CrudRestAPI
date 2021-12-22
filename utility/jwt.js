@@ -7,13 +7,13 @@ exports.generateToken = (email,id) => {
       email: email,
       id:id
     },
-    process.env.secretKey,
+    process.env.SECRET_KEY,
     { expiresIn: "1h" }
   );
 };
 
 exports.verifyToken = (token,callback) => {
-  return jwt.verify(token,process.env.secretKey,(error,data)=>{
+  return jwt.verify(token,process.env.SECRET_KEY,(error,data)=>{
    return error ? callback(error, null) : callback(null, data);
   });
 };

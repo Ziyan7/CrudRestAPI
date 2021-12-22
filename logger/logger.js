@@ -3,6 +3,7 @@ require('winston-daily-rotate-file');
 var transport = new winston.transports.DailyRotateFile({
   filename: 'dialyErrorCheck.log',
   datePattern: 'YYYY-MM-DD-HH',
+  
 });
 const { combine, json, timestamp, prettyPrint } = winston.format;
 const logger = winston.createLogger({
